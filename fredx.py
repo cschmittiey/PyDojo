@@ -442,7 +442,7 @@ def begin():
         sc.onkey(go_right, "Right")
         sc.onkey(quit, "q")
 
-    speed(fastest)
+    speed(0)
     shape("turtle")
     fc("light blue")
 
