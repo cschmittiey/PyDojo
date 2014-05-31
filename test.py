@@ -7,3 +7,4 @@ i = 100
 while i <= 350:
     loops(i,triangle)
     i = i+25
+loops(175,circle)

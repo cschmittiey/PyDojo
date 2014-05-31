@@ -443,7 +443,7 @@ def begin():
         sc.onkey(quit, "q")
 
     speed(0)
-    shape("turtle")
+    shape("classic")
     fc("light blue")
 
 def rs():
