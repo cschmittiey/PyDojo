@@ -14,8 +14,14 @@ def fireItUp():
         i = i+25
     loops(250,circle)
 
-begin()
 if raw_input("Press G when ready") == "g" or "G":
+    begin("1", 1)
     fireItUp()
+    begin("5", 5)
+    fireItUp()
+    begin("9", 9)
+    fireItUp()
+
+
 
 

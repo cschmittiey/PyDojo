@@ -427,10 +427,10 @@ def tree():
     fc(oc[1])
 
 #Setup stuff
-def begin():
+def begin(titlearg, speedarg):
     '''Starts up the turtle screen and sets up the turtle object'''
     sc = Screen()
-    sc.title("Am I not turtley enough for you.  Turtle, turtle, turtle.")
+    sc.title(titlearg)
     sc._root.attributes("-topmost", 1)  # hack to get the window to show in front of the terminal
     #sc._root.attributes("-topmost", 0)
 
@@ -442,7 +442,7 @@ def begin():
         sc.onkey(go_right, "Right")
         sc.onkey(quit, "q")
 
-    speed(0)
+    speed(speedarg)
     shape("classic")
     fc("light blue")
 
